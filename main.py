@@ -31,8 +31,6 @@ def scrape_data():
 
                 os.mkdir(f"output/{year.strip().replace('/', '_')}")
                 print(f"{year} - {url}")
-                print(all_years_urls)
-                print(all_years_urls_dict)
 
     all_years_subjects_urls = []
     all_years_subjects_urls_dict = {}
